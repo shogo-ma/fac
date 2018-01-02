@@ -1,0 +1,28 @@
+brew:
+  # Reporitory to push the tap to.
+  github:
+    owner: mkchoi212
+    name: fac
+
+  # Git author used to commit to the repository.
+  # Defaults are shown.
+  commit_author:
+    name: mkchoi212
+    email: mkchoi212@icloud.com
+
+  # Folder inside the repository to put the formula.
+  # Default is the root folder.
+  folder: assets
+
+  # Your app's homepage.
+  # Default is empty.
+  homepage: "https://github.com/mkchoi212/fac"
+
+  # Your app's description.
+  # Default is empty.
+  description: "CUI for fixing git conflicts, written in Go"
+
+  # Packages your package depends on.
+  dependencies:
+    - git
+    - go
